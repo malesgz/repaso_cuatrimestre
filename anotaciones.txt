@@ -1,0 +1,14 @@
+-¿Qué es un enrutador?
+Es una parte del desarrollo web que se encarga de gestionar las solicitudes entrantes y las dirigen a funciones o controladores adecuados.
+En pocas palabras manejan rutas, asocian las peticiones a los controladores adecuados, permiten que se incorporen funciones de middleware, organización del código ya que cada ruta y la lógica estan encapsuladas en lugares específicos, manejan los parámetros en las rutas.
+
+-¿Qué sifnigica que se crea una nueva instancia?
+Significa que se esta creando un nuevo objeto o entidad que se basa en una clase o plantilla predifinida.
+
+-¿Qué son los middlewares?
+Son funciones o componentes que se utilizan para procesar y manipular solicitudes HTTP entrantes y las respuestas salientes en el desarrollo de aplicaciones web.
+Son intermediarios entre el cliente y el servidor.
+También permiten que se pueda reutilizar el código, manejar errores.
+Permiten también una gran modularidad y flexibilidad a la construcción y el mantenimiento de la aplicación.
+
+- Type: module en package.json es para indicar que todos los archivos JS en él proyecto deben tratarse como módulos ESM de forma predeterminada. Es decir, para poder usar import y export en vez del requiere y module.exports.
